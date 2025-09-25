@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PrimeVue overrides */
+:root {
+  --primary-color: #FF555D;
+  --secondary-color: #074667;
+  --accent-color: #F0DE7D;
+  --info-color: #2A93D1;
+}
+
+body {
+  @apply font-cairo bg-gray-50 text-gray-900;
+}
+
+
+:root {
+  --p-primary-color: #3b82f6; 
+  --p-primary-hover-color: #2563eb;
+}
