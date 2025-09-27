@@ -2,20 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* PrimeVue overrides */
-:root {
-  --primary-color: #FF555D;
-  --secondary-color: #074667;
-  --accent-color: #F0DE7D;
-  --info-color: #2A93D1;
+/* PrimeVue Theme Overrides */
+:root,
+[data-pc-name="root"],
+.p-component {
+  --p-primary: #FF555D;
+  --p-primary-500: #FF555D;
+  --p-secondary: #074667;
+  --p-accent: #F0DE7D;
+  --p-info: #2A93D1;
+
+  --p-primary-100: #ffe5e7;
+  --p-primary-200: #ffb3b8;
+  --p-primary-700: #cc444b;
 }
 
+
+
+
+/* Body style */
 body {
   @apply font-cairo bg-gray-50 text-gray-900;
-}
-
-
-:root {
-  --p-primary-color: #3b82f6; 
-  --p-primary-hover-color: #2563eb;
 }
